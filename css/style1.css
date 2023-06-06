@@ -81,12 +81,12 @@ ul {
   width: 100vw;
   display: flex;
   justify-content: center;
-  padding-top: 2vw;
-  padding-bottom: 2vw;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
 }
 .tittle img {
   height: 10vw;
-  width: 45vw;
+  width: 50vw;
 }
 .location {
   color: rgba(53, 53, 53, 1);
