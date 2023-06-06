@@ -152,7 +152,7 @@
         <div class="restaurants">
           <h2 class="restaurants-tittle">Restaurants</h2>
           <div class="cards-container">
-            <a href="la_palette_du_goût.html">
+            <a href="index.html#la_palette_du_goût">
               <article class="cards">
                 <div class="card-image">
                   <div class="nouveau">Nouveau</div>
@@ -171,7 +171,7 @@
                 </div>
               </article>
             </a>
-            <a href="la_note_enchantée.html">
+            <a href="index.html#la_note_enchantée">
               <article class="cards">
                 <div class="card-image">
                   <div class="nouveau">Nouveau</div>
@@ -190,7 +190,7 @@
                 </div>
               </article>
             </a>
-            <a href="à_la_française.html">
+            <a href="index.html#à_la_française">
               <article class="cards">
                 <div class="card-image">
                   <picture>
@@ -208,7 +208,7 @@
                 </div>
               </article>
             </a>
-            <a href="le_délice_des_sens.html">
+            <a href="index.html#le_délice_des_sens">
               <article class="cards">
                 <div class="card-image">
                   <picture>
