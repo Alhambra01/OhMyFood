@@ -83,6 +83,8 @@ ul {
   justify-content: center;
   padding-top: 2vh;
   padding-bottom: 1vh;
+  margin-top:0;
+  margin-bottom:0;
 }
 .tittle img {
   height: 10vw;
