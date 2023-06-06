@@ -39,22 +39,7 @@ ul {
   background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
   animation: fadeOut 4s linear infinite, hide-loader 0s linear 4s forwards;
 }
-/*
-animation: loader 1s ease-in-out 3s forwards;
 
-
-@keyframes loader {
-	0% {
-	  opacity: 1;
-	}
-	50% {
-	  opacity: 0.5;
-	}
-	100% {
-	  opacity: 0;
-	}
-  }
-  */
 @keyframes fadeOut {
   0% {
     opacity: 1;
@@ -83,19 +68,6 @@ animation: loader 1s ease-in-out 3s forwards;
   animation: rotate 3s linear infinite;
 }
 
-/*
-@keyframes spin {
-
-	0% {
-		transform: rotate(0turn);
-		visibility: visible;
-	}
-	100% {
-		transform: rotate(1turn);
-		visibility:hidden;
-	}
-}
-*/
 @keyframes rotate {
   from {
     -webkit-transform: rotate(0deg);
