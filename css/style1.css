@@ -16,6 +16,9 @@ a {
 	text-decoration: none;
 	color: black;
   }
+.footer-list a {
+    color: white;
+}
 ul {
 	list-style: none;
 }
@@ -33,7 +36,7 @@ ul {
 	justify-content: center;
 	align-items: center;
 	background:linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%); ;
-	animation: fadeOut 5s linear infinite, hide-loader 0s linear 5s forwards;
+	animation: fadeOut 4s linear infinite, hide-loader 0s linear 4s forwards;
 
 }
 /*
@@ -60,7 +63,7 @@ animation: loader 1s ease-in-out 3s forwards;
 		opacity: 0.5;
 	}
 	100%{
-		opacity: 0;
+		opacity: 0; 
 } 
  } 
 
@@ -68,14 +71,14 @@ animation: loader 1s ease-in-out 3s forwards;
   @keyframes hide-loader {
 	0% { opacity: 1; }
 	50% {opacity: 0.5;}
-	100% { opacity: 0; display: none; }
+	100% { opacity: 0; transform: scale(0); }
   }
-.cutlery{
+  .cutlery{
 	
-	width: 35vw;
-	height: 35vh;
-	animation: rotate 5s linear infinite;
+	animation: rotate 3s linear infinite;
+	
 }
+
 /*
 @keyframes spin {
 
@@ -106,8 +109,7 @@ animation: loader 1s ease-in-out 3s forwards;
 	padding-bottom: 2VW;
 }
 .tittle img {
-	align-self: center;
-	margin-left: 0;
+	
 	height: 10vw;
 	width: 45vw;
 }
@@ -152,10 +154,17 @@ animation: loader 1s ease-in-out 3s forwards;
 	margin-top: 5vw;
 	margin-bottom: 5vw;
 }
-.main-button {
+.button-container {
 	text-align: center;
+}
+.main-button {
+	
 	width: 70vw;
-	height: 15vw;
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+	margin: 0 auto;
+	margin-top:0 ;
+	margin-bottom: 0;
 	background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 	color:white;
 	border-radius: 10vw;
@@ -164,7 +173,7 @@ animation: loader 1s ease-in-out 3s forwards;
 .main-button:hover {
 	background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
 box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
-border-radius: 25px;
+border-radius: 10vw;
 
 }
 .main-nav, .fonctionnement{
@@ -325,14 +334,14 @@ background: #F2F2F2;
 		font-size: 1.15vw;
 	}
 	.tittle {
-		justify-content: center;
+	
+		padding-top: 2vw;
+		padding-bottom: 1vw;
 	}
 	.tittle img {
-	align-self: center;
 	width: 30vw;
 	height: 4.5vw;
-	margin-top: 3vw;
-	margin-bottom: 2vw;
+	
 }	
 .location {
 	font-size: 1.5vw;
@@ -361,7 +370,11 @@ background: #F2F2F2;
 }
 .main-button {
 	width: 18vw;
-	height: 4vw;
+	margin: 0 auto;
+	margin-top:0 ;
+	margin-bottom: 0;
+	padding-top: 1.5vw;
+	padding-bottom: 1.5vw;
 }
 .nav-tittle {
 	padding-top: 4vw;
