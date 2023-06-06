@@ -18,6 +18,9 @@ a {
     color: black;
 
   }
+.footer-list a {
+    color: white;
+}
 ul {
 	list-style: none;
 }
@@ -30,12 +33,12 @@ ul {
 	top: 0;
 	left: 0;
 	width: 100vw;
-	height: 120vh;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background:linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%); ;
-	animation: fadeOut 5s linear infinite, hide-loader 0s linear 5s forwards;
+	animation: fadeOut 4s linear infinite, hide-loader 0s linear 4s forwards;
 
 }
 /*
@@ -70,14 +73,14 @@ animation: loader 1s ease-in-out 3s forwards;
   @keyframes hide-loader {
 	0% { opacity: 1; }
 	50% {opacity: 0.5;}
-	100% { opacity: 0; display: none; }
+	100% { opacity: 0; transform: scale(0); }
   }
 .cutlery{
 	
-	width: 35vw;
-	height: 35vh;
-	animation: rotate 5s linear infinite;
+	animation: rotate 3s linear infinite, hide-loader 0s linear 4s forwards;
+	
 }
+
 /*
 @keyframes spin {
 
@@ -99,6 +102,7 @@ animation: loader 1s ease-in-out 3s forwards;
 	  -webkit-transform: rotate(360deg);
 	}
   }
+
   
 .logo-container {
 	position: relative;
@@ -110,15 +114,17 @@ animation: loader 1s ease-in-out 3s forwards;
 .tittle1 img {
 	width: 30vw;
 	height: 4.5vw;
-	margin-top: 4vw;
-	margin-bottom: 2vw;
+	margin-top: 2vw;
+	margin-bottom: 1vw;
 }
 
 .back-button {
 	position: absolute;
 	left: 4%;
+	top: 15%;
 	margin-top: 0;
 	align-self: center;
+
 }
 .fa-arrow-left {
 	font-size:6vw;
@@ -153,6 +159,8 @@ animation: loader 1s ease-in-out 3s forwards;
 	border-top-right-radius: 15vw;
 	justify-content: center;
     align-items: center;
+	padding-bottom: 50vh;
+	overflow-y: hidden;
 	
 }
 .tittle-container {
@@ -169,28 +177,26 @@ animation: loader 1s ease-in-out 3s forwards;
 	font-weight: 600;
 }
 .tittle-container .fa-heart {
-	
-    -webkit-text-stroke-width: 0.2vw;
-    -webkit-text-stroke-color: black;
-    background: #F2F2F2;
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-    }
-.tittle-container .fa-heart:hover {
-        
-        background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-        
-    }
-.tittle-container .fa-heart {
 	position: absolute;
 	font-size: 8vw;
 	left: 85%;
 	top: 16%;
-}
+    -webkit-text-stroke-width: 0.2vw;
+    -webkit-text-stroke-color: black;
+    background: #F2F2F2;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    }
+.tittle-container .fa-heart:hover {
+        
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+        
+    }
+
 .entrées-container .dish-tittle, .plats-container .dish-tittle, .desserts-container .dish-tittle {
 	font-family: "thin 100 roboto","sans serif";
 	font-size: 5vw;
@@ -208,25 +214,7 @@ animation: loader 1s ease-in-out 3s forwards;
     border: 0.4vw solid #99E2D0;
     margin-top: 1vw;
 }
-.details {
-	width: calc(85%);
-	font-size: 4vw;
-	font-weight: 100;
-	
-}
-.price {
-	font-size: 5vw;
-	font-weight: 900;
-	position: absolute;
-	left:80vw;
-	width: calc(15%);
 
-}
-.dish-details {
-	padding-top: 2vw;
-	display: inline-block;
-	width: 85vw;
-}
 .dish {
 	position: relative;
 	align-self: center;
@@ -250,11 +238,29 @@ animation: loader 1s ease-in-out 3s forwards;
 .dish-name {
 	font-size: 5vw;
 	width: calc(85%);
+	white-space: nowrap;
 }
 .dish-details {
+	padding-top: 2vw;
+	display: inline-block;
+	width: 85vw;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+}
+.details {
+	width: calc(85%);
+	font-size: 4vw;
+	font-weight: 100;
+	
+}
+.price {
+	font-size: 5vw;
+	font-weight: 900;
+	position: absolute;
+	left:80vw;
+	width: calc(15%);
+
 }
 .checked {
 	position: absolute;
@@ -295,15 +301,18 @@ animation: loader 1s ease-in-out 3s forwards;
 	transition: 0.5s;
 	transform-origin: left;
 	width: calc(50%);
-	display: inline-block;
 	transition-timing-function: ease-in-out;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 
 }
-.entrées-container, .plats-container, .desserts-container {
-    animation: fadeIn 3s ease-in-out ;	
+.entrées-container, .plats-container, .desserts-container, .button-container {
+	animation: fadeIn 3s ease-in-out ;	    
+}
+
+.entrées-container {
+	animation: fadeIn 3s ease-in-out ;	
     
 }
 .plats-container {
@@ -313,6 +322,10 @@ animation: loader 1s ease-in-out 3s forwards;
 .desserts-container {
     animation: fadeIn 4s ease-in-out ;
     animation-delay: 0.30s;
+}
+.button-container {
+    animation: fadeIn 5s ease-in-out ;
+    animation-delay: 0.15s;
 }
 
 @keyframes fadeIn{
@@ -325,24 +338,29 @@ animation: loader 1s ease-in-out 3s forwards;
 }
 /*
 @keyframes fadein {
-    from {
+    0% {
       opacity:0;
     }
-    to {
+    100% {
       opacity:1;
     }
   }
-  */
-
+*/
 .button-container {
-	text-align: center;
+	
 	padding-top: 4vw;
 	padding-bottom: 7vw;
 }
 .main-button {
-	text-align: center;
+	display: flex;
 	width: 70vw;
-	height: 15vw;
+	margin: 0 auto;
+	margin-top: 2vh;
+	margin-bottom: 0;
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+	text-align: center;
+	justify-content: center;
 	background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 	color:white;
 	border-radius: 10vw;
@@ -355,6 +373,10 @@ border-radius: 10vw;
 
 }
 .main-footer {
+	position: absolute;
+		bottom: 0%;
+		left: 0%;
+		right: 0%;
 	background-color:#353535;
 	color:white;
 	padding: 5vw;
@@ -376,12 +398,15 @@ border-radius: 10vw;
 	.tittle1 img {
 		width: 22vw;
 		height: 3.5vw;
-		
-		margin-top: 2vw;
+		margin-top: 1vw;
+		margin-bottom: 1vw;
 	}
 	.main-photo {
 		height: 30vw;
 		
+	}
+	.back-button {
+		top: 20%;
 	}
 	.fa-arrow-left {
 		font-size: 3vw;
@@ -399,14 +424,19 @@ border-radius: 10vw;
 	.resto-tittle {
 		font-size: 2vw;
 		font-weight: 300;
+		align-self: center;
+		margin-left: 0;
 	}
 	.tittle-container .fa-heart {
 		font-size: 2vw;
 		margin-left: 5vw;
+		-webkit-text-stroke-width: 0.05vw;
 	}
 		
 	.dish-name {
 		font-size: 1.25vw;
+		
+		
 		
 	}
 	.details-container {
@@ -470,10 +500,12 @@ border-radius: 10vw;
 		width: 70vw;
 		margin-left: 15vw;
 		padding-top: 3vw;
-		border-radius: 3vw;
+		border-top-left-radius: 3vw;
+		border-top-right-radius: 3vw;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		padding-bottom: 15vh;
 	}
 	.dish {
 		width: 45vw;
@@ -495,9 +527,12 @@ border-radius: 10vw;
 	}
     .main-button {
         width: 18vw;
-        height: 4vw;
+		padding-top: 1.5vw;
+		padding-bottom: 1.5vw;
+        
     }
     .main-footer {
+		
         display: flex;
         flex-direction: row-reverse;
         text-align: right;
@@ -510,7 +545,7 @@ border-radius: 10vw;
         display: flex;
         flex-direction: row;
         padding-right: 5vw;
-        
+       
     }
     .footer-list p {
         margin-right: 2vw;
