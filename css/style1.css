@@ -268,14 +268,18 @@ ol {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
 }
 .resto-location .fa-heart {
-  font-size: 4.5vw;
+		position: absolute;
+		left: 90%;
+		top: -45%;
+  font-size: 5vw;
 }
 .fa-heart {
   -webkit-text-stroke-width: 0.2vw;
   -webkit-text-stroke-color: black;
-  background: #f2f2f2;
+  background: white;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -307,7 +311,7 @@ ol {
   }
   .tittle {
     padding-top: 2vh;
-    padding-bottom: 1vh;
+	padding-bottom: 1vh;
   }
   .tittle img {
     width: 30vw;
@@ -449,7 +453,9 @@ ol {
     padding-top: 0;
     font-size: 1.25vw;
   }
+  
   .resto-location .fa-heart {
+	top: -50%;
     font-size: 2vw;
     align-items: baseline;
     -webkit-text-stroke-width: 0.05vw;
