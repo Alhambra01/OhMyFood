@@ -77,9 +77,6 @@ ul {
     -webkit-transform: rotate(360deg);
   }
 }
-.main-header {
-	margin:0;
-}
 .tittle {
 	position: relative;
 	width: 100vw;
@@ -87,6 +84,7 @@ ul {
 	justify-content: center;
 	padding-top: 2vh;
 	padding-bottom: 1vh;
+	margin: 0;
   }
 #header-logo {
 	height: 8.5vw;
