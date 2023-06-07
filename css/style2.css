@@ -131,8 +131,8 @@ ul {
   border-top-right-radius: 15vw;
   justify-content: center;
   align-items: center;
-  padding-bottom: 21vw;
-  overflow-y: hidden;
+
+overflow-y: hidden;
 }
 .tittle-container {
   position: relative;
@@ -317,7 +317,7 @@ ul {
   width: 70vw;
   margin: 0 auto;
   margin-top: 2vh;
-  margin-bottom: 0;
+  margin-bottom: 21vw;
   padding-top: 5vw;
   padding-bottom: 5vw;
   text-align: center;
