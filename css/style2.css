@@ -86,8 +86,8 @@ ul {
 }
 
 .tittle1 img {
-  width: 30vw;
-  height: 4.5vw;
+  width: 50vw;
+  height: 8.5vw;
 }
 
 .back-button {
@@ -131,7 +131,7 @@ ul {
   border-top-right-radius: 15vw;
   justify-content: center;
   align-items: center;
-  padding-bottom: 25vh;
+  padding-bottom: 15vh;
   overflow-y: hidden;
 }
 .tittle-container {
