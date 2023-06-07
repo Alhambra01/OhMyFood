@@ -78,26 +78,22 @@ ul {
   }
 }
 
-.logo-container {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.tittle1 img {
-  width: 50vw;
-  height: 8.5vw;
-  padding-top:0;
-  padding-bottom:0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
+.tittle {
+	position: relative;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	padding-top: 2vh;
+	padding-bottom: 1vh;
+  }
+#header-logo {
+	height: 8.5vw;
+	width: 50vw;
+  }
 .back-button {
   position: absolute;
   left: 4%;
-  top: 15%;
+  top: 32%;
   margin-top: 0;
   align-self: center;
 }
@@ -135,7 +131,7 @@ ul {
   border-top-right-radius: 15vw;
   justify-content: center;
   align-items: center;
-  padding-bottom: 23vh;
+  padding-bottom: 21vh;
   overflow-y: hidden;
 }
 .tittle-container {
