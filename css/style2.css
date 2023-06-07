@@ -90,6 +90,8 @@ ul {
   height: 8.5vw;
   padding-top:0;
   padding-bottom:0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .back-button {
@@ -133,7 +135,7 @@ ul {
   border-top-right-radius: 15vw;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20vh;
+  padding-bottom: 23vh;
   overflow-y: hidden;
 }
 .tittle-container {
