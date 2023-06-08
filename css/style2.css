@@ -471,6 +471,7 @@ overflow-y: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-y: hidden;
   }
   .dish {
     width: 45vw;
@@ -495,6 +496,7 @@ overflow-y: hidden;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
     margin-bottom: 15vw;
+    overflow-y: hidden;
   }
   .main-footer {
     display: flex;
