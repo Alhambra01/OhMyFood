@@ -361,7 +361,7 @@ overflow-y: hidden;
     font-size: 1.15vw;
   }
   .tittle img {
-    width: 22vw;
+    width: 21vw;
     height: 3.5vw;
     margin-top: 1vw;
     margin-bottom: 1vw;
@@ -493,6 +493,7 @@ overflow-y: hidden;
     width: 18vw;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
+    margin-bottom: 5vw;
   }
   .main-footer {
     display: flex;
