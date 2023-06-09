@@ -24,59 +24,6 @@ a {
 ul {
   list-style: none;
 }
-.page {
-  position: relative;
-}
-.loader {
-  z-index: 4;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
-  animation: fadeOut 4s linear infinite, hide-loader 0s linear 4s forwards;
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes hide-loader {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 0;
-    transform: scale(0);
-  }
-}
-.cutlery {
-  animation: rotate 3s linear infinite, hide-loader 0s linear 4s forwards;
-}
-
-@keyframes rotate {
-  from {
-    -webkit-transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-  }
-}
 .tittle {
 	position: relative;
 	width: 100vw;
