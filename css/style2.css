@@ -118,7 +118,7 @@ overflow-y: hidden;
   font-family: "thin 100 roboto", "sans serif";
   font-size: 5vw;
   margin-bottom: 4vw;
-  margin-left: 5vw;
+  margin-left: 7vw;
   font-weight: 100;
   padding-bottom: 0;
   padding-top: 6vw;
@@ -137,9 +137,9 @@ overflow-y: hidden;
 .dish {
   position: relative;
   align-self: center;
-  width: 95vw;
-  margin-left: 3vw;
-  margin-right: 3vw;
+  width: 86vw;
+  margin-left: 7vw;
+  margin-right: 7vw;
   background-color: white;
   box-shadow: lightgrey 2px 2px 2px;
   margin-bottom: 5vw;
@@ -150,12 +150,12 @@ overflow-y: hidden;
 }
 
 .details-container {
-  padding: 5vw;
-  width: 95vw;
+  padding: 4vw;
+  width: 86vw;
 }
 
 .dish-name {
-  font-size: 5vw;
+  font-size: 4vw;
   width: calc(85%);
   white-space: nowrap;
 }
@@ -169,19 +169,19 @@ overflow-y: hidden;
 }
 .details {
   width: calc(85%);
-  font-size: 4vw;
+  font-size: 3.5vw;
   font-weight: 100;
 }
 .price {
-  font-size: 5vw;
+  font-size: 4vw;
   font-weight: 900;
   position: absolute;
-  left: 80vw;
+  left: 75vw;
   width: calc(15%);
 }
 .checked {
   position: absolute;
-  left: 95vw;
+  left: 86vw;
   border-top-right-radius: 5vw;
   border-bottom-right-radius: 5vw;
   width: 21vw;
@@ -189,11 +189,11 @@ overflow-y: hidden;
   background-color: #99e2d0;
   transition: 0.5s;
   text-align: center;
-  padding-top: 7.5vw;
+  padding-top: 5.5vw;
 }
 .dish:hover .checked {
   transition: 0.5s;
-  left: 75vw;
+  left: 66vw;
   transition-timing-function: ease-in-out;
 }
 .dish:hover .price {
@@ -262,8 +262,9 @@ overflow-y: hidden;
 .main-button {
   display: flex;
   width: 70vw;
-  margin: 0 auto;
-  margin-top: 2vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 2vw;
   margin-bottom: 30vw;
   padding-top: 5vw;
   padding-bottom: 5vw;
@@ -289,6 +290,7 @@ overflow-y: hidden;
   background-color: #353535;
   color: white;
   padding: 5vw;
+  padding-left: 7vw;
   padding-bottom: 0;
 }
 #footer-logo {
