@@ -227,23 +227,24 @@ overflow-y: hidden;
 .plats-container,
 .desserts-container,
 .button-container {
-  animation: fadeIn 3s ease-in-out;
+  animation: fadeIn 2s both;
 }
 
 .entrées-container {
-  animation: fadeIn 3s ease-in-out;
+  animation: fadeIn 2s both;
+  animation-delay: 0.5s;
 }
 .plats-container {
-  animation: fadeIn 3s ease-in-out;
-  animation-delay: 0.15s;
+  animation: fadeIn 2s both;
+  animation-delay: 2.5s;
 }
 .desserts-container {
-  animation: fadeIn 4s ease-in-out;
-  animation-delay: 0.3s;
+  animation: fadeIn 2s both;
+  animation-delay: 4.5s;
 }
 .button-container {
-  animation: fadeIn 5s ease-in-out;
-  animation-delay: 0.15s;
+  animation: fadeIn 2s both;
+  animation-delay: 6.5s;
 }
 
 @keyframes fadeIn {
