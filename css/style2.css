@@ -261,15 +261,12 @@ overflow-y: hidden;
 
 .button-container {
   padding-top: 4vw;
-  padding-bottom: 7vw;
 }
 .main-button {
   display: flex;
   width: 70vw;
   margin-left: 15vw;
   margin-right: 15vw;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
   padding-top: 5vw;
   padding-bottom: 5vw;
   text-align: center;
