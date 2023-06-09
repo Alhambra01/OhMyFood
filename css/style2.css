@@ -36,6 +36,7 @@ ul {
 #header-logo {
 	height: 8.5vw;
 	width: 50vw;
+	margin-left: 25vw;
   }
 .back-button {
   position: absolute;
@@ -442,7 +443,6 @@ overflow-y: hidden;
     width: 18vw;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
-    margin-bottom: 15vw;
     overflow-y: hidden;
   }
   .main-footer {
