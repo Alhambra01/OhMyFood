@@ -208,7 +208,7 @@ ol {
   color: #7e7e7e;
   padding-right: 5vw;
 }
-.menu .fa-solid:focus {
+.menu:hover .fa-solid {
   color: #9356dc;
 }
 .restaurants {
