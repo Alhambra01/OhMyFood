@@ -286,9 +286,6 @@ overflow-y: hidden;
 }
 .main-footer {
   
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
   background-color: #353535;
   color: white;
   padding: 5vw;
