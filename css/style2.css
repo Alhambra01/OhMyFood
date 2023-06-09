@@ -409,7 +409,6 @@ overflow-y: hidden;
   .resto-menus {
     width: 70vw;
     margin-left: 15vw;
-    padding-top: 3vw;
     border-top-left-radius: 3vw;
     border-top-right-radius: 3vw;
     display: flex;
@@ -433,7 +432,6 @@ overflow-y: hidden;
   }
   .button-container {
     padding-top: 2vw;
-    padding-bottom: 3.5vw;
   }
   .main-button {
     width: 18vw;
