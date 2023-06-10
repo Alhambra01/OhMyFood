@@ -86,7 +86,6 @@ overflow-y: hidden;
   font-family: "shrikhand", "cursive";
   font-size: 7vw;
   font-style: italic;
-  margin-left: 7vw;
   font-weight: 600;
 }
 .resto-tittle .fa-heart {
@@ -327,12 +326,10 @@ overflow-y: hidden;
   .resto-tittle {
     font-size: 2vw;
     font-weight: 300;
-    align-self: center;
-    margin-left: 0;
   }
-  .tittle-container .fa-heart {
+  .resto-tittle .fa-heart {
     font-size: 2vw;
-    margin-left: 5vw;
+    margin-left: 2vw;
     -webkit-text-stroke-width: 0.05vw;
   }
 
