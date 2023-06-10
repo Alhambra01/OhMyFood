@@ -39,8 +39,8 @@ ul {
   }
 .back-button {
   position: absolute;
-  left: 4%;
-  top: 32%;
+  left: 3vw;
+  top: 4vw;
   margin-top: 0;
   align-self: center;
 }
@@ -90,7 +90,7 @@ overflow-y: hidden;
 }
 .resto-tittle .fa-heart {
   font-size: 7vw;
-  margin-left: 7vw;
+  margin-left: 10vw;
   -webkit-text-stroke-width: 0.2vw;
   -webkit-text-stroke-color: black;
   background: #f2f2f2;
