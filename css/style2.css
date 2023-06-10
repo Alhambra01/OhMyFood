@@ -408,6 +408,7 @@ overflow-y: hidden;
   }
   .resto-menus {
     width: 70vw;
+    padding-top: 3.25vw;
     margin-left: 15vw;
     border-top-left-radius: 3vw;
     border-top-right-radius: 3vw;
