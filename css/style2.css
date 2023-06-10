@@ -83,6 +83,8 @@ ul {
 overflow-y: hidden;
 }
 .tittle-container {
+  width: 100%;
+  text-align: center;
   position: relative;
   align-items: baseline;
   justify-content: left;
