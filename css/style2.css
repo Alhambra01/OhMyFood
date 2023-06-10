@@ -89,9 +89,9 @@ overflow-y: hidden;
 }
 .resto-tittle {
   font-family: "shrikhand", "cursive";
-  font-size: 8vw;
+  font-size: 7vw;
   font-style: italic;
-  margin-left: 5vw;
+  margin-left: 7vw;
   font-weight: 600;
 }
 .tittle-container .fa-heart {
@@ -117,7 +117,7 @@ overflow-y: hidden;
 .plats-container .dish-tittle,
 .desserts-container .dish-tittle {
   font-family: "thin 100 roboto", "sans serif";
-  font-size: 5vw;
+  font-size: 4.5vw;
   margin-bottom: 4vw;
   margin-left: 7vw;
   font-weight: 100;
