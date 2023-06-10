@@ -79,28 +79,19 @@ ul {
   border-top-right-radius: 15vw;
   justify-content: center;
   align-items: center;
-
 overflow-y: hidden;
 }
-.tittle-container {
-  width: 100%;
-  text-align: center;
-  position: relative;
-  align-items: baseline;
-  justify-content: left;
-}
 .resto-tittle {
+  text-align: center;
   font-family: "shrikhand", "cursive";
   font-size: 7vw;
   font-style: italic;
   margin-left: 7vw;
   font-weight: 600;
 }
-.tittle-container .fa-heart {
-  position: absolute;
+.resto-tittle .fa-heart {
   font-size: 8vw;
-  left: 85%;
-  top: 12%;
+  margin-left: 2vw;
   -webkit-text-stroke-width: 0.2vw;
   -webkit-text-stroke-color: black;
   background: #f2f2f2;
@@ -108,7 +99,7 @@ overflow-y: hidden;
   -webkit-background-clip: text;
   color: transparent;
 }
-.tittle-container .fa-heart:hover {
+.resto-tittle .fa-heart:hover {
   background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -252,7 +243,7 @@ overflow-y: hidden;
 
 @keyframes fadeIn {
   0% {
-    transform: translateY(80vh);
+    transform: translateY(80vw);
   }
   100% {
     transform: translateY(0);
@@ -264,9 +255,9 @@ overflow-y: hidden;
 }
 .main-button {
   display: flex;
-  width: 70vw;
-  margin-left: 15vw;
-  margin-right: 15vw;
+  width: 60vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
   padding-top: 5vw;
   padding-bottom: 5vw;
   text-align: center;
