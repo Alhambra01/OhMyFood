@@ -218,8 +218,7 @@ overflow-y: hidden;
 }
 .entrées-container,
 .plats-container,
-.desserts-container,
-.button-container {
+.desserts-container {
   animation: fadeIn 2s both;
 }
 
@@ -234,10 +233,6 @@ overflow-y: hidden;
 .desserts-container {
   animation: fadeIn 2s both;
   animation-delay: 4.5s;
-}
-.button-container {
-  animation: fadeIn 2s both;
-  animation-delay: 6.5s;
 }
 
 @keyframes fadeIn {
