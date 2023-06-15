@@ -40,7 +40,7 @@ ul {
 .back-button {
   position: absolute;
   left: 3vw;
-  top: 3vw;
+  top: 2vw;
   margin-top: 0;
   align-self: center;
 }
@@ -303,7 +303,7 @@ overflow-y: hidden;
     height: 30vw;
   }
   .back-button {
-    top: 3vw;
+    top: 2vw;
   }
   .fa-arrow-left {
     font-size: 3vw;
