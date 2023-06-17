@@ -29,24 +29,28 @@ ul {
 	width: 100vw;
 	display: flex;
 	justify-content: center;
-	padding-top: 2vw;
 	padding-bottom: 1vw;
 	margin: 0;
   }
 #header-logo {
 	height: 8.5vw;
 	width: 50vw;
+  margin-top: 2vw;
   }
 .back-button {
   position: absolute;
   left: 3vw;
-  top: 2vw;
   margin-top: 0;
   align-self: center;
+  background-color: #9356dc;
+  height: 100%;
 }
 .fa-arrow-left {
   font-size: 6vw;
   text-align: left;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .main-photo,
 .main-photo img {
