@@ -240,13 +240,13 @@ overflow-y: hidden;
 }
 
 @keyframes fadeIn {
-  0% {
-    transform: translateY(80vw);
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
   }
-  100% {
-    transform: translateY(0);
-  }
-}
 
 .button-container {
   padding-top: 4vw;
