@@ -232,11 +232,11 @@ overflow-y: hidden;
 }
 .plats-container {
   animation: fadeIn 2s both;
-  animation-delay: 2.5s;
+  animation-delay: 1.5s;
 }
 .desserts-container {
   animation: fadeIn 2s both;
-  animation-delay: 4.5s;
+  animation-delay: 2.5s;
 }
 
 @keyframes fadeIn {
