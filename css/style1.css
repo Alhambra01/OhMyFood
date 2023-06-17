@@ -37,7 +37,7 @@ ul {
   justify-content: center;
   align-items: center;
   background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
-  animation: fadeOut 4s linear infinite, hide-loader 0s linear 4s forwards;
+  animation: fadeOut 4s linear forwards;
 }
 
 @keyframes fadeOut {
@@ -52,20 +52,8 @@ ul {
   }
 }
 
-@keyframes hide-loader {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 0;
-    transform: scale(0);
-  }
-}
 .cutlery {
-  animation: rotate 3s linear infinite;
+  animation: rotate 4s linear forwards;
 }
 
 @keyframes rotate {
