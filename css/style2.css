@@ -296,7 +296,7 @@ overflow-y: hidden;
     font-size: 1.15vw;
   }
     .tittle {
-    padding-top: 2vw;
+    padding-top: 0vw;
 	padding-bottom: 1vw;
   }
   #header-logo {
