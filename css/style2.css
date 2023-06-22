@@ -296,8 +296,8 @@ overflow-y: hidden;
     font-size: 1.15vw;
   }
     .tittle {
-    padding-top: 0vw;
-	padding-bottom: 1vw;
+    padding-top: 1vw;
+	padding-bottom: 0vw;
   }
   #header-logo {
     width: 30vw;
@@ -308,7 +308,7 @@ overflow-y: hidden;
     height: 30vw;
   }
   .back-button {
-    top: 1vw;
+    top: 0;
   }
   .fa-arrow-left {
     font-size: 3vw;
