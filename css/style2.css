@@ -297,7 +297,7 @@ overflow-y: hidden;
   }
     .tittle {
     padding-top: 1vw;
-	padding-bottom: 0vw;
+	padding-bottom: 0.5vw;
   }
   #header-logo {
     width: 30vw;
