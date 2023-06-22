@@ -326,6 +326,7 @@ overflow-y: hidden;
   .resto-tittle {
     font-size: 2vw;
     font-weight: 300;
+    margin-left: 0;
   }
   .resto-tittle .fa-heart {
     font-size: 2vw;
