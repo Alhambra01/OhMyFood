@@ -302,6 +302,7 @@ overflow-y: hidden;
   #header-logo {
     width: 30vw;
     height: 4.5vw;
+    margin-top: 0vw;	  
   }
   .main-photo {
     height: 30vw;
